@@ -1,15 +1,15 @@
 {
-  "name": "AFK Bot",
+  "name": "Xaero",
   "bot-account": {
     "username": "IASBOT",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "xByAlvaroSSJ_MC.aternos.me",
-    "port": 34249,
+    "ip": "65.21.143.239",
+    "port": 42098,
     "version": "1.21.1",
-    "try-creative": false
+    "try-spectator": true
   },
   "position": {
     "enabled": true,
@@ -27,9 +27,9 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 0,
       "messages": [
         "I'm a regular player",
         "Subscribe to xByAlvaroSSJ_MC!",
@@ -39,7 +39,7 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 1200000
   },
   "movement": {
     "enabled": true,
@@ -82,6 +82,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
